@@ -1,7 +1,7 @@
 ## Overview of LQC2F-rPPG
 LQC2F-rPPG: A Label-Quantized Coarse-to-Fine Learning Framework for Remote Physiological Measurement
 <p align="center">
-  <img src="assets/figures/Overview.png" alt="Framework Overview" width="800"/>
+  <img src="images/Overview.png" alt="Framework Overview" width="800"/>
 </p>
 
 ## ⚙️ Setup
