@@ -14,7 +14,7 @@ This will automatically create a dedicated conda environment and install all nec
 
 
 ## 📁 Datasets
-To use Q2F-Phys, it is necessary to prepare appropriate benchmark datasets. Please refer to the following publications for details on each dataset.
+To use LQC2F-rPPG, it is necessary to prepare appropriate benchmark datasets. Please refer to the following publications for details on each dataset.
 
 - **MMPD (2023)**  
   - Tang, J.; Chen, K.; Wang, Y.; Shi, Y.; Patel, S.; McDuff, D.; and Liu, X. 2023. MMPD: Multi-domain mobile video physiology dataset. In Proceedings of the IEEE Engineering in Medicine and Biology Society, 1–5.
