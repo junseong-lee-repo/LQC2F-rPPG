@@ -40,7 +40,7 @@ To run the pre-trained model for **intra-dataset** evaluation (i.e., training an
 
 - **MMPD → MMPD**:
 ```bash
-python main.py --config_file ./configs/MMPD_MMPD_Q2FPhys.yaml
+python main.py --config_file ./configs/MMPD_MMPD_LQC2F.yaml
 ```
 
 ### Cross-Dataset Evaluation (Examples)
@@ -48,12 +48,12 @@ To run the pre-trained model for **cross-dataset** evaluation (i.e., training an
 
 - **PURE → UBFC**:
 ```bash
-python main.py --config_file ./configs/PURE_UBFC_Q2FPhys.yaml
+python main.py --config_file ./configs/PURE_UBFC_LQC2F.yaml
 ```
 
 - **UBFC → PURE**:
 ```bash
-python main.py --config_file ./configs/UBFC_PURE_Q2FPhys.yaml
+python main.py --config_file ./configs/UBFC_PURE_LQC2F.yaml
 ```
 
 
