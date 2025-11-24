@@ -33,14 +33,14 @@ To use LQC2F-rPPG, it is necessary to prepare appropriate benchmark datasets. Pl
 
 
 ## 🖥️ Testing with Pre-trained Models
-Please refer to the configuration files located in `./configs/infer_configs`.
+Please refer to the configuration files located in `./configs`.
 
 ### Intra-Dataset Evaluation (Example)
 To run the pre-trained model for **intra-dataset** evaluation (i.e., training and testing on the same dataset), you can use the following example:
 
 - **MMPD → MMPD**:
 ```bash
-python main.py --config_file ./configs/infer_configs/MMPD_MMPD_Q2FPhys.yaml
+python main.py --config_file ./configs/MMPD_MMPD_Q2FPhys.yaml
 ```
 
 ### Cross-Dataset Evaluation (Examples)
@@ -48,12 +48,12 @@ To run the pre-trained model for **cross-dataset** evaluation (i.e., training an
 
 - **PURE → UBFC**:
 ```bash
-python main.py --config_file ./configs/infer_configs/PURE_UBFC_Q2FPhys.yaml
+python main.py --config_file ./configs/PURE_UBFC_Q2FPhys.yaml
 ```
 
 - **UBFC → PURE**:
 ```bash
-python main.py --config_file ./configs/infer_configs/UBFC_PURE_Q2FPhys.yaml
+python main.py --config_file ./configs/UBFC_PURE_Q2FPhys.yaml
 ```
 
 
